@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #eee;
+    font-family: 'Almarai', sans-serif;
+}
+ul{
+    background-color: rgb(112, 189, 163);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+ul li {
+    display: inline-block;
+    margin-left: 20px;
+}ul li :hover { 
+    background-color:rgb(134, 224, 134) ;
+    }
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+.main-img{
+    height: 400px;
+    background-image:url('../images/14.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center center;
+
+}
+
+.our-features{
+   
+    padding-top: 50px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+     margin-bottom: 50px;
+}
+
+.our-features h1{
+color:rgb(34, 117, 34);
+
+
+}
+
+.Features {
+display: flex;
+margin-top: 25px;
+}
+.Features .Feature {
+    text-align: center ;
+    background-color: white;
+    width: 30%;
+    margin: auto;
+    padding: 15px;
+    height: auto px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.Features .Feature:hover{
+    box-shadow: 3px 3px 10px green;
+    transform: translate(3px);
+    background-color: rgb(241, 247, 241);
+
+}
+.Features .Feature i{
+    padding:15px ;
+    font-size: 30px;
+    background-color:green;
+    color:white ;
+    border-radius: 50%;
+
+}
+.Features .Feature h3{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/*start content style*/
+.content {
+    padding-top: auto ;
+    width: 80%;
+    margin : auto;
+    text-align: center;
+    background-color: white; 
+    }
+
+    .content h1{
+    color: palevioletred;
+
+
+}
+.content p {
+   font-size: 20px;
+    margin-bottom: 25px;
+    border-radius: 80%;
+   
+}
+.content img {
+    width: 250px;
+    border-radius: 80%;
+    
+}
+.content img:hover{
+    box-shadow: 3px 3px 10px pink;
+    transform: translate(3px);
+}
+/* stat contact_us*/
+.contact_us{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.contact_form{
+    width: 700px;
+    background-color: white;
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+    border-radius: 5px;
+}
+.input-form{
+    margin-bottom: 20px;
+}
+.input-form input {
+    width: 400px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+textarea {
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 3px;
+   
+
+}
+button {
+    background-color: rgb(233, 142, 157);
+    color: white;
+    width: 200px;
+    height: 50px;
+    border: 1px solid rgb(245, 77, 105);
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    
+    
+}
+
+
+
+
+
